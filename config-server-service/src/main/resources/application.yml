@@ -1,0 +1,14 @@
+server:
+  port: 9090
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/colenhuttran/microservice-in-out
+          search-paths:
+            - /config-center/*
+            - '*'
+          #username: add uid if git repo is private
+          #password: add pwd if git repo is private
