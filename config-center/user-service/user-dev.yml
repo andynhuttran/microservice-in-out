@@ -2,3 +2,7 @@ key:
     value:
         min: 10
         max: 100      
+        
+order:
+    value:
+        length: dev        

@@ -2,3 +2,7 @@ key:
     value:
         min: 1
         max: 2
+        
+order:
+    value:
+        length: default        
